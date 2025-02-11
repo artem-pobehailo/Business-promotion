@@ -573,7 +573,7 @@ ol {
   gap: 72px;
 }
 .offer-all-list {
-  width: calc((100% - (72 * 2) px) / 3);
+  width: calc((100% - (72 * 2px)) / 3);
   border: 1px solid #dedede;
   border: none;
   border-radius: 8px;
@@ -724,7 +724,7 @@ ol {
   gap: 64px;
 }
 .clients-all-titel-list-titel {
-  width: calc((100% - (64 * 2) px) / 3);
+  width: calc((100% - (64 * 2px)) / 3);
   border: 1px solid #dedede;
   border-radius: 5px;
 }
