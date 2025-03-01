@@ -212,6 +212,12 @@ ol {
   text-decoration: underline;
   text-decoration-skip-ink: none;
   background-color: #fff;
+  display: flex;
+
+  gap: 9px;
+}
+.work-lis-icon {
+  fill: #02897a;
 }
 
 /* #endregion work */
@@ -244,6 +250,30 @@ ol {
 .product-list-item {
   width: calc((100% - 3 * 30px) / 4); /* Рахуємо ширину кожної колонки */
 }
+.div-icon {
+  display: flex;
+  border-radius: 19px;
+  width: 54px;
+  height: 54px;
+  background: #02897a;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.product-icon {
+  fill: #fff;
+}
+.blue {
+  background: #4d8dff;
+}
+.pink {
+  background: #740a76;
+}
+
+.red {
+  background: #f03e3d;
+}
+
 .product-list-item-subtitle {
   font-weight: 600;
   font-size: 22px;
