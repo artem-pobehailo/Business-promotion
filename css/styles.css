@@ -96,16 +96,20 @@ ol {
   align-items: center; /* Вирівнює всі елементи по вертикалі */
 }
 .header-nav-list-item {
+  display: block;
   align-items: center; /* Вирівнює всі елементи по вертикалі */
 }
 .header-nav-list-item-link {
+  display: block;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.75;
   color: #22343d;
   padding: 26px 0;
 }
-
+.header-nav-list-item-link {
+  display: block;
+}
 .active {
   font-weight: 600;
   font-size: 16px;
@@ -289,7 +293,6 @@ ol {
   font-size: 32px;
   color: #22343d;
   margin-bottom: 25px;
-  gap: 8px;
 }
 .managment-titel-span {
   font-weight: 600;
@@ -553,8 +556,7 @@ ol {
   color: #22343d;
   max-width: 296px;
   margin-left: 12px;
-  margin: ;
-  -bottom: 40px;
+  margin-bottom: 40px;
 }
 .strategy-first-list li:nth-child(2) .strategy-first-list-titel-subtitel {
   color: #02897a;
@@ -825,6 +827,9 @@ ol {
   border: none;
   padding: 10px 34px;
 }
+.button-customers {
+  color: #22343d;
+}
 .companies-all-img {
   margin-top: 4px;
   margin-bottom: 10px;
@@ -946,3 +951,344 @@ ol {
   border-bottom: 1px solid black;
 }
 /* #endregion footer */
+.offer-titel-text {
+  display: block;
+  font: 500 16px "Poppins", sans-serif;
+  text-align: center;
+  color: #22343d;
+  margin-bottom: 32px;
+}
+.prising-offer {
+  padding-top: 0;
+  padding-bottom: 150px;
+}
+.prising-offer-titel {
+  margin-bottom: 16px;
+}
+.prising-text {
+  margin-bottom: 49px;
+}
+.enterprise {
+  padding-bottom: 294px;
+}
+.enterprise .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Центруємо елементи по горизонталі */
+  text-align: center;
+}
+
+.enterprise-titel {
+  font: 700 34px "Poppins", sans-serif;
+  color: #22343d;
+  margin-bottom: 8px;
+}
+.enterprise-span {
+  display: block;
+  font: 600 24px "Poppins", sans-serif;
+  color: #22343d;
+  margin-top: 53px;
+  margin-bottom: 16px;
+}
+.enterprise-text {
+  margin-bottom: 32px;
+  font: 400 18px "Poppins", sans-serif;
+  color: #22343d;
+}
+.button-enterprise {
+  background: #02897a;
+  border-radius: 8px;
+  width: 224px;
+  height: 44px;
+  font: 600 18px "Montserrat", sans-serif;
+  color: #fff;
+}
+.effects {
+  padding-bottom: 6px;
+}
+.effects-titel {
+  font: 700 34px "Poppins", sans-serif;
+  color: #22343d;
+  text-align: center;
+  margin-bottom: 47px;
+}
+.effects-div {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+}
+.effects-div-list {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.effects-div-list-titel {
+}
+.effects-div-list-titel-subtitel {
+  font: 600 24px "Poppins", sans-serif;
+  text-align: center;
+  color: #22343d;
+  text-align: start;
+  margin-left: 14px;
+}
+.effects-div-list-titel-text {
+  font: 400 16px / 1.75 "Poppins", sans-serif;
+  color: #22343d;
+}
+.asked {
+}
+.asked .container {
+  padding-bottom: 150px;
+  max-width: 920px;
+  height: auto;
+}
+.asked-titel {
+  font: 700 34px "Poppins", sans-serif;
+  color: #22343d;
+  margin-top: 6px;
+  text-align: center;
+  margin-bottom: 8px;
+}
+.asked-text {
+  font: 400 18px "Poppins", sans-serif;
+  color: #22343d;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.asked-titel-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.asked-titel-list-li {
+  border-top: 1px solid #e7e7e7;
+  border-bottom: 1px solid #e7e7e7;
+  display: flex;
+}
+.asked-titel-list-subtitel {
+  font: 500 18px "Poppins", sans-serif;
+  color: #22343d;
+  margin-left: 16px;
+  justify-content: center;
+  align-items: center;
+}
+.asked-titel-list-text {
+  font: 400 16px "Poppins", sans-serif;
+  color: #22343d;
+}
+.asked-btm {
+  display: block;
+  border: 1px solid #bcd0e5;
+
+  width: 24px;
+  height: 24px;
+  background-color: #02897a;
+  border-radius: 50px;
+  flex-shrink: 0;
+}
+
+.active {
+  color: #22343d;
+  position: relative;
+}
+.active::after {
+  content: "";
+  border-radius: 2px;
+  left: 0;
+  bottom: 20px;
+  width: 48px;
+  height: 4px;
+  position: absolute;
+  background: #404bbf;
+}
+
+.active {
+  color: #22343d;
+  position: relative;
+}
+.active::after {
+  content: "";
+  border-radius: 2px;
+  left: 0;
+  bottom: 20px;
+  width: 100%;
+  height: 4px;
+  position: absolute;
+  background: #404bbf;
+}
+.client {
+  padding-top: 100px;
+  padding-bottom: 117px;
+}
+.client-titel {
+  font: 700 40px "Poppins", sans-serif;
+  color: #22343d;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.clients-list {
+  display: flex;
+  gap: 64px;
+  justify-content: center;
+  align-items: center;
+}
+.clients-list-item {
+  flex-basis: calc((100% - 3 * 64px) / 4);
+}
+.customer-product .container {
+  background: #f5f5f5;
+  padding-bottom: 50px;
+}
+.customer-product-titel {
+  font: 700 34px "Poppins", sans-serif;
+
+  color: #22343d;
+  display: flex;
+  margin-top: 24px;
+  margin-bottom: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.customer-product-list {
+  display: flex;
+  gap: 30px;
+}
+.customer-product-list-item {
+  flex-basis: calc((100% - 2 * 30px) / 3);
+  display: flex;
+  flex-direction: column;
+}
+.customer-product-list-item-subtitel {
+  font: 700 24px / 1.375 "Poppins", sans-serif;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #22343d;
+
+  margin-top: 32px;
+  margin-bottom: 16px;
+}
+.customer-product-list-item-text {
+  font: 400 16px / 1.6875 "Poppins", sans-serif;
+  letter-spacing: 0.01em;
+
+  color: #22343d;
+  max-width: 270px;
+  margin: 0 auto;
+  text-align: center;
+}
+.customer-work {
+  padding-top: 100px;
+  padding-bottom: 130px;
+}
+.container {
+}
+.customer-work-list {
+}
+.customer-work-titel {
+  font: 700 34px "Poppins", sans-serif;
+  text-align: center;
+  color: #22343d;
+  margin-bottom: 72px;
+}
+.customer-work-list-item {
+  display: flex;
+
+  flex-wrap: nowrap;
+
+  gap: 89px;
+
+  flex-direction: row-reverse;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.item-row {
+  flex-direction: row;
+}
+.work-list-item-m {
+  margin-bottom: 78px;
+}
+.customer-work-list-item-div {
+  display: flex;
+  flex-direction: column;
+}
+.customer-first-list-item-subtitel {
+  font: 600 24px "Poppins", sans-serif;
+  text-align: start;
+  color: #22343d;
+  margin-bottom: 16px;
+}
+.customer-first-list-item-subtitel-span {
+  display: block;
+  font: 500 20px "Poppins", sans-serif;
+  justify-content: start;
+  color: #22343d;
+  margin-bottom: 16px;
+}
+.customer-first-list-item-text {
+  font: 400 16px / 1.75 "Poppins", sans-serif;
+  color: #22343d;
+  max-width: 440px;
+}
+.customer-work-btm {
+  border-radius: 8px;
+  width: 224px;
+  height: 44px;
+  background: #02897a;
+
+  font: 600 18px "Montserrat", sans-serif;
+  color: #fff;
+
+  border: none;
+  margin: 0 auto;
+}
+
+.customer-offer {
+  padding-bottom: 136px;
+}
+.customer-offer .container {
+  background: linear-gradient(180deg, #f5f5f5 0%, rgba(245, 245, 245, 0) 100%);
+}
+.customer-offer-titel {
+  font: 700 32px "Poppins", sans-serif;
+  text-align: center;
+  color: #22343d;
+  max-width: 540px;
+
+  margin-top: 21px;
+  margin-bottom: 93px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.customer-offer-list {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+}
+.customer-offer-list-item {
+  width: calc((100% - 200px) / 2);
+}
+.customer-offer-list-item-subtitel {
+  display: block;
+  font: 500 24px / 1.16667 "Poppins", sans-serif;
+  color: #000;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.customer-offer-list-item-list {
+  display: flex;
+  flex-direction: column;
+}
+.customer-offer-list-item-list-item {
+  display: block;
+  text-align: center;
+  font: 400 18px / 1.77778 "Poppins", sans-serif;
+  text-align: center;
+  color: #22343d;
+}
+.customer-text-text {
+  font: 500 16px / 1.75 "Poppins", sans-serif;
+  color: #000;
+}
